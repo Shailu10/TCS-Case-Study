@@ -1,0 +1,4 @@
+{% extends "Cashier/layout.html" %}
+{% block body %}
+<p>Welcome {{session.get('type')}} : {{session.get('username')}} </p>
+{% endblock %}
